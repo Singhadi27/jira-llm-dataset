@@ -169,5 +169,5 @@ docker build -t jira-llm-dataset .
 **Aditya Singh**  
 Final Year B.Tech CSE Student | DevOps & Cloud Enthusiast  
 
-🔗 **Docker Hub:** [adityasingh1404/jira-llm-dataset](https://hub.docker.com/r/adityasinghio/jira-llm-dataset)
+🔗 **Docker Hub:** [adityasinghio/jira-llm-dataset](https://hub.docker.com/r/adityasinghio/jira-llm-dataset)
 
