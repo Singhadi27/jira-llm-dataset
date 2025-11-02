@@ -144,22 +144,30 @@ The resulting dataset can be used for:
 - Prepared datasets suitable for machine learning model fine-tuning  
 
 ---
-# 🐳 Docker Setup for Jira LLM Dataset
 
-# Step 1: Build the Docker image
+## 🐳 Docker Setup for Jira LLM Dataset
+
+### 🧩 Pull the Prebuilt Docker Image
+docker pull adityasinghio/jira-llm-dataset
+
+### 🚀 Step 1: Run the Project Inside the Container
+docker run -it adityasinghio/jira-llm-dataset
+
+### 💾 (Optional) Step 2: Persist Output Files to Your Local Machine
+This mounts your local "outputs" folder to the container’s /app/sample_output directory.
+docker run -it -v $(pwd)/outputs:/app/sample_output adityasinghio/jira-llm-dataset
+
+### 📂 Step 3: Check the Saved Outputs Locally
+ls outputs/
+
+### 🏗️ (For Developers) Step 4: Build the Docker Image Yourself
 docker build -t jira-llm-dataset .
 
-# Step 2: Run the project inside the container
-docker run -it jira-llm-dataset
-
-# (Optional) Step 3: Persist output files to your local machine
-# This mounts your local "outputs" folder to the container’s /app/sample_output
-docker run -it -v $(pwd)/outputs:/app/sample_output jira-llm-dataset
-
-# Step 4: Check the saved outputs locally
-ls outputs/
+---
 
 ## 👤 Author
 **Aditya Singh**  
-Final Year B.Tech CSE Student | DevOps & Cloud Enthusiast
+Final Year B.Tech CSE Student | DevOps & Cloud Enthusiast  
+
+🔗 **Docker Hub:** [adityasingh1404/jira-llm-dataset](https://hub.docker.com/r/adityasinghio/jira-llm-datasett)
 
