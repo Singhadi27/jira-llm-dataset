@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and cache
+*.log
+*.db
+*.sqlite3
+checkpoint.db
+
+# Data outputs
+sample_output/
+data/
+test_output/
+*.csv
+*.jsonl
+
+# Compiled or temporary files
+*.tmp
+*.bak
+
+# Python build artifacts
+build/
+dist/
+*.spec
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Pip
+pip-wheel-metadata/
+

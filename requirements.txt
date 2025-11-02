@@ -1,0 +1,6 @@
+aiohttp==3.13.2
+tenacity==8.2.2
+beautifulsoup4==4.12.2
+orjson==3.9.7
+tqdm==4.65.0
+
